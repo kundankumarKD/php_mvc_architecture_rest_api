@@ -1,0 +1,21 @@
+{
+    "name": "antigravity/php-mvc-api",
+    "description": "A simple PHP MVC REST API",
+    "type": "project",
+    "require": {
+        "firebase/php-jwt": "^6.0",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Antigravity",
+            "email": "antigravity@google.com"
+        }
+    ]
+}
